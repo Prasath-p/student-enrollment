@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>student-enrollment</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='Style.css'>
+    <script src='Script.js'></script>
+</head>
+<body>
+    <div class="navBar">
+    <h1><center>Student Enrollment Form </center></h1>
+    </div>
+    <div class="form-border">
+    
+    <table>
+        <tr> 
+            <td> 
+                <div class="form-input">
+                <form autocomplete="off" id="form">
+                    <div>
+                        <label>Student Name</label><br/>
+                        <input type = "text" id = "studentName" placeholder="Enter the Name"  required>
+                    </div>
+                    <br/>
+                    <div>
+                        <label>Email</label><br/>
+                        <input type = "text" id = "Email" placeholder="Enter the Email"  required><br/>
+                    </div>
+                    <br/>
+                    <div>
+                        <label>Website</label><br/>
+                        <input type = "text" id = "Website" placeholder="Enter the Website"  required>
+                    </div>
+                    <br/>
+                       
+                        <label for="gender">Gender</label><br/>
+                        <div class="gen-cs"> 
+                        <select id ="gender" required>
+                            <option value="selectGender">select gender</option>
+                            <option value="male">male</option>
+                            <option value="female">female</option>
+                            <option value="other">other</option>
+                        </select>
+                    </div>
+                    <br/>
+                    <div>  
+                        <label>Skills</label><br/>
+                        <input type = "text" id = "skills" placeholder="Enter your Skills">
+                    </div>    
+                    <br/>
+                    
+                    <div class="btn">
+                        <button type = "submit" id="enrollStudent"  onclick="myFunction()">Enroll Student</button>
+                        <button type ="reset" id= "reset">Clear</button>
+                    </div>
+                       
+                </form>
+                </div>  
+           
+                <div class="table">                         
+                <td>
+                    <center><h1>Enrolled Students</h1></center>  
+                    <table id="table-data">
+                        <thead>
+                            
+                            <tr>
+                                <th>Student Name</th>
+                                <th>Email</th>
+                                <th>Website</th>
+                                <th>Gender</th>
+                                <th>Skills</th>
+                                <th>Edit/Delete</th>
+                            </tr>
+                        </thead>
+                        <tbody id="body">
+
+                        </tbody>
+                    </table>
+            
+                </td>
+                </div>
+                </div>
+            </td>
+         </tr>
+    </table>
+    </div>
+
+    <div id="demo"></div>
+</body>
+</html>

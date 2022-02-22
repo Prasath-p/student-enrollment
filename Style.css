@@ -1,0 +1,154 @@
+*{
+    font-family: sans-serif;
+}
+
+
+.navBar{
+    height:70%;
+    background-color: rgb(97, 194, 233);
+    
+}
+
+.form-input{
+    border-right: 8px solid rgb(82, 206, 255);
+    height: 100%;
+    padding: 30px;
+    margin-top: 5px;
+  
+    margin-left: 10px;
+    
+}
+    
+.vl{
+    border-left: 5px solid rgb(97, 194, 233);
+    height: 400px;
+    margin-left: 3px
+}
+
+
+h1{
+    color: rgb(232, 236, 240);
+    text-shadow: 2px 2px 4px #000000;
+    
+}
+
+table{
+    height: 26%;
+    width: 100%;
+    
+    
+    
+}
+th{
+    border: 1px solid rgb(97, 194, 233);
+    border-radius: 6px;
+    font-family: sans-serif;
+    background-color:rgb(222, 231, 235);
+    
+}
+
+body{
+    background-image: url('LGM3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+table.table-data{
+    text-align: center;
+    width: 100px;
+    
+
+    
+}
+
+td{
+    text-align: left;
+    padding: 8px;
+    
+
+}
+
+input[type="text"]{
+
+    width: 50%;
+    padding: 10px 10px;
+    margin: 5px 10px;
+    display: inline-block;
+    border: 2px solid rgb(44, 130, 228);
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+input[type="submit"],input[type="reset"]{
+    
+    width: 50%;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor:pointer;
+    outline: none;
+
+}
+
+#enrollStudent{
+    background-color: rgb(17, 17, 245);
+    color: rgb(249, 249, 255);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+#reset{
+    background-color: red;
+    color: rgb(249, 249, 255);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+#enrollStudent:hover{
+    color: rgb(249, 249, 255);
+    background-color: rgb(6, 205, 255);
+	transition: ease-in-out 100ms;
+}
+#reset:hover{
+    color: rgb(249, 249, 255);
+    background-color: rgb(6, 205, 255);
+	transition: ease-in-out 100ms;
+}
+
+.gen-cs{
+     margin: 8px;
+
+}
+label{
+    margin: 8px;
+    font-weight: 700;
+    color: aliceblue;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px #000000;
+
+    
+}
+
+.btn{
+margin: 8px;
+padding: 5px;
+
+}
+
+select{
+    border: 2px solid rgb(44, 130, 228);
+    border-radius: 8px;
+    font-weight: 600;
+    
+}
+tbody{
+    font-weight: 600;
+    
+}
