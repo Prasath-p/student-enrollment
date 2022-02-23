@@ -28,7 +28,7 @@ return formData;
 //insert data into table
 insertData=(data)=>{
 let table = document.getElementById("table-data").getElementsByTagName("tbody")[0];
-let row = table.insertRow(table.lenght);
+let row = table.insertRow(table.length);
 let cell1 = row.insertCell(0);
 cell1.innerHTML = data.studentName;
 
